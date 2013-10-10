@@ -11,7 +11,7 @@ namespace JustUI.Elements
             ControlType = ControlType.Window;
         }
 
-        protected Window(Process process)
+        internal Window(Process process)
         {
             ControlType = ControlType.Window;
             Element = AutomationElement.FromHandle(process.MainWindowHandle);
