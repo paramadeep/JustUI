@@ -7,7 +7,11 @@ JustUI
  Basic Usage:
  
  myApp = new Application("<location of application executable>");
- myApp.launch;
- Window appWindow = myApp.window;
- appWindow.Get<Edit>(By.Id(textbox_id))).SetValue(text);
- appWindow.Get<Button>(By.Name(button_name)).Click();
+ <br />
+ myApp.launch();
+ <br />
+ Window appWindow = myApp.Window;
+ <br />
+ appWindow.Get&lt;Edit>(By.Id(textbox_id))).SetValue(text);
+ <br />
+ appWindow.Get&lt;Button>(By.Name(button_name)).Click();
