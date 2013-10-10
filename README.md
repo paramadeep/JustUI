@@ -6,7 +6,7 @@ JustUI
 
  Basic Usage:
  
- myApp = new Application("<location of application executable>");
+ myApp = new Application("&lt;location of application executable>");
  <br />
  myApp.launch();
  <br />
