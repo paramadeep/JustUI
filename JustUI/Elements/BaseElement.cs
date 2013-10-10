@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Windows.Automation;
-namespace JustUI
+
+namespace JustUI.Elements
 {
     public abstract class BaseElement<T>
         where T : BaseElement<T>

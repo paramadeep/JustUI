@@ -5,22 +5,23 @@ using JustUI.Elements;
 
 namespace JustUI
 {
-    public class WinApp
+    public class Application
     {
         private readonly string _executableLocation;
         private Process _process;
+        public Window Window;
 
-        public WinApp(string executableLocation)
+        public Application(string executableLocation)
         {
             _executableLocation = executableLocation;
         }
 
-        public Window Launch()
+        public void Launch()
         {
             _process = Process.Start(_executableLocation);
             WaitForAppProcessToStart();
             WaitForAppWindowToLoad();
-            return new Window(_process);
+            Window = new Window(_process);
         }
 
         private void WaitForAppProcessToStart()

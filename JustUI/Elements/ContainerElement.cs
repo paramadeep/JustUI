@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Automation;
 
-namespace JustUI
+namespace JustUI.Elements
 {
     public class ContainerElement<T> : BaseElement<T>
         where T : BaseElement<T>

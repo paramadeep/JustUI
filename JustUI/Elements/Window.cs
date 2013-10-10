@@ -1,8 +1,5 @@
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Windows.Automation;
-
 using JustUI.CustomElements;
 
 namespace JustUI.Elements
@@ -14,7 +11,7 @@ namespace JustUI.Elements
             ControlType = ControlType.Window;
         }
 
-        public Window(Process process)
+        protected Window(Process process)
         {
             ControlType = ControlType.Window;
             Element = AutomationElement.FromHandle(process.MainWindowHandle);
