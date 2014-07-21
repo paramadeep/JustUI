@@ -1,7 +1,7 @@
 JustUI
 ======
 
- Wrapper arround UI Automation, making it usable by common man
+  Simple automation tool for windows. Wrapper arround UI Automation, making it usable by common man
 
 
  Basic Usage:
